@@ -16,6 +16,14 @@
  */
 + (NSDictionary *)replacedElementDictionary;
 
+
+/*  帮助你快速设置接口参数和请求实体参数的映射表(解决修改请求参数名的问题)
+ key:   客户端参数命名
+ value: 接口定义字段命名
+ */
++ (NSDictionary *)replacedParamsDictionary;
+
+
 @end
 
 

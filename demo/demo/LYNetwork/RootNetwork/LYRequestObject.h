@@ -9,13 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "LYInterfaceConfig.h"
 #import "LYErrorConfig.h"
+#import "NSObject+LYJSONEntity.h"
 
 typedef void(^LYRequestSuccessBlock)(id responseObject, NSDictionary *options);
 typedef void(^LYRequestFailBlock)(LYNetworkError *error, NSDictionary *options);
 typedef void(^LYRequestProgressBlock)(NSProgress *uploadProgress);
 
 
-@interface LYRequestObject : NSObject
+@interface LYRequestObject : NSObject <MFSJSONEntityElementProtocol>
 
 /**
  接口地址

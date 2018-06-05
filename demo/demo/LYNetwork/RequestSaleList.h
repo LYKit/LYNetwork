@@ -15,6 +15,6 @@
 @property (nonatomic, copy) NSString *saleType;
 @property (nonatomic, copy) NSString *page;
 @property (nonatomic, copy) NSString *rows;
-@property (nonatomic, copy) NSString *price;
+@property (nonatomic, copy) NSString *pricceNew;
 
 @end

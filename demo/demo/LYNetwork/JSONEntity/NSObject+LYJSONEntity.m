@@ -158,7 +158,16 @@
                     value = [propertyValue mfs_propertyDictionary];
                 }
             }
-            if (value) [dictionary setValue:value forKey:propertyName];
+            if (value) {
+                NSString *transPropertyName = @"";
+                if ([cls respondsToSelector:@selector(replacedParamsDictionary)]) {
+                    NSDictionary *replacedDictionary = [cls performSelector:@selector(replacedParamsDictionary)];
+                    transPropertyName = replacedDictionary[propertyName];
+                }
+                transPropertyName = transPropertyName ? transPropertyName : propertyName;
+                
+                [dictionary setValue:value forKey:transPropertyName];
+            }
         }
     }];
     return dictionary;

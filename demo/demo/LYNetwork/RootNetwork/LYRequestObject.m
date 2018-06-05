@@ -10,7 +10,6 @@
 #import "AFNetworking.h"
 #import "LYRequestManager.h"
 #import "LYResponseObject.h"
-#import "NSObject+LYJSONEntity.h"
 
 
 

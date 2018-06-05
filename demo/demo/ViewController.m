@@ -25,6 +25,7 @@
     RequestSaleList *request = [RequestSaleList new];
     request.rows = @"10";
     request.page = @"1";
+    request.pricceNew = @"100";
     [request startWithSuccessBlock:^(ResponseSaleList *responseObject, NSDictionary *options) {
         NSLog(@"%@", responseObject.data.total);
     } failBlock:^(LYNetworkError *error, NSDictionary *options) {

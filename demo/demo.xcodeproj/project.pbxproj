@@ -21,6 +21,7 @@
 		C1776F731EE6A3CE00E97DA8 /* LYRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1776F691EE6A3CE00E97DA8 /* LYRequestManager.m */; };
 		C1776F741EE6A3CE00E97DA8 /* LYRequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1776F6B1EE6A3CE00E97DA8 /* LYRequestObject.m */; };
 		C1776F751EE6A3CE00E97DA8 /* LYResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1776F6D1EE6A3CE00E97DA8 /* LYResponseObject.m */; };
+		C1D9849020938D0B00774D2C /* LYRequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1776F6B1EE6A3CE00E97DA8 /* LYRequestObject.m */; };
 		C1DDC8831F30550E0092E251 /* NSObject+LYJSONEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DDC8821F30550E0092E251 /* NSObject+LYJSONEntity.m */; };
 		C1E5215B1F29D3D8008B2F30 /* ResponseSaleList.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E521571F29D3D8008B2F30 /* ResponseSaleList.m */; };
 		C1E5215C1F29D3D8008B2F30 /* RequestSaleList.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E521591F29D3D8008B2F30 /* RequestSaleList.m */; };
@@ -449,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1776F521EE6A3A500E97DA8 /* demoUITests.m in Sources */,
+				C1D9849020938D0B00774D2C /* LYRequestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
