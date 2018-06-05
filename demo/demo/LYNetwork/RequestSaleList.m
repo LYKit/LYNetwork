@@ -16,9 +16,9 @@
     return self;
 }
 
-+ (NSDictionary *)replacedParamsDictionary {
-    return @{@"pricceNew" : @"price"};
-}
+//+ (NSDictionary *)replacedParamsDictionary {
+//    return @{@"pricceNew" : @"price"};
+//}
 
 
 @end

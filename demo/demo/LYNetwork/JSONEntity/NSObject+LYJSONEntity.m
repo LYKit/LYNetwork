@@ -164,7 +164,7 @@
                     NSDictionary *replacedDictionary = [cls performSelector:@selector(replacedParamsDictionary)];
                     transPropertyName = replacedDictionary[propertyName];
                 }
-                transPropertyName = transPropertyName ? transPropertyName : propertyName;
+                transPropertyName = transPropertyName.length ? transPropertyName : propertyName;
                 
                 [dictionary setValue:value forKey:transPropertyName];
             }
